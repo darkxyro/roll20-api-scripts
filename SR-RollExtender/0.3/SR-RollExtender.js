@@ -155,8 +155,10 @@ srre.ShowHelp=function(){
             '<span style="color:#bbee99">y</span> being the minimum number of dice before you want to stop <br><br>'+
             '<b>!RollEx <span style="color:#ffffff">xx</span> s<span style="color:#aaaaee">z</span></b><br>'+
             '<span style="color:#aaaaee">z</span> being the number of successes after which you want to stop<br><br>'+
-            '<b>!RollEx <span style="color:#ffffff">xx</span> s<span style="color:#aaaaee">z</span> d<span style="color:#bbee99">y</span></b><br>'+
-            'to combine them both<br><br>'+
+            '<b>!RollEx <span style="color:#ffffff">xx</span> l<span style="color:#ee99bb">n</span></b><br>'+
+            '<span style="color:#ee99bb">n</span> being the limit which applies to every single roll<br><br>'+
+            '<b>!RollEx <span style="color:#ffffff">xx</span> s<span style="color:#aaaaee">z</span> d<span style="color:#bbee99">y</span> l<span style="color:#ee99bb">n</span></b><br>'+
+            'to combine them all<br><br>'+
             'Will always stop when rolling a critical glitch'+
         '</td></tr>'+
     '</table>'
